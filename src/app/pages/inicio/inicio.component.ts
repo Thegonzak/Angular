@@ -7,5 +7,16 @@ import { Component } from '@angular/core';
 })
 export class InicioComponent {
   name = 'Gonzalo Saucedo';
+  loading_visible = false;
+
+  visualizarLoading() {
+    this.loading_visible = true;
+    setTimeout(() => {
+      this.loading_visible = false;
+    }, 2000);
+
+
+
+  }
 
 }
