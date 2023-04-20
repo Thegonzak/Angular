@@ -1,2 +1,10 @@
 <app-loading [visible]="loading_visible"></app-loading>
-<button (click)="visualizarLoading()"> Ver loading</button>
+
+<div class="grid">
+  <div class="col-6">
+    <p-button (onClick)="visualizarLoading()" icon="pi pi-save" label="Mostrar Loading"></p-button>
+  </div>
+  <div class="col-6">
+    <p-button (onClick)="irPaginaTabla()" icon="pi pi-save" label="Ir a Tabla"></p-button>
+  </div>
+</div>
