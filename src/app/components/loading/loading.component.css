@@ -1,0 +1,25 @@
+.spinner {
+  position: fixed;
+  /*Fixed permite el uso de top*/
+  top: 0;
+  /*Arriba.*/
+  left: 0;
+  /*Izquierda.*/
+  right: 0;
+  /*Derecha.*/
+  bottom: 0;
+  /*Abajo.*/
+  z-index: 1000;
+  /*Sobreponer lo que se encuentre en la pantalla.*/
+  display: flex;
+  align-items: center;
+  /*alinear de forma vertical.*/
+  justify-content: center;
+  /*alinear de forma horizontal.*/
+  background: rgb(113 110 110 / 46%);
+}
+
+.img_loader {
+  width: 90px;
+  height: 90px;
+}
